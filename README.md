@@ -1,59 +1,75 @@
-# feathers-chat
+# Nuxt 3 Minimal Starter
 
-[![CI](https://github.com/feathersjs/feathers-chat/workflows/CI/badge.svg)](https://github.com/feathersjs/feathers-chat/actions?query=workflow%3ACI)
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-> A FeathersJS chat application
+## Setup
 
-## About
+Make sure to install the dependencies:
 
-This project uses [Feathers](http://feathersjs.com), a framework for real-time applications and REST APIs. It contains the chat application created in [the Feathers guide](https://docs.feathersjs.com/guides/) and a frontend in plain JavaScript.
+```bash
+# npm
+npm install
 
-![The Feathers chat application](https://docs.feathersjs.com/assets/img/feathers-chat.91960785.png)
+# pnpm
+pnpm install
 
-Other chat frontends can be found at:
+# yarn
+yarn install
 
-- TypeScript: [feathersjs/feathers-chat-ts](https://github.com/feathersjs/feathers-chat-ts)
-- React: [feathersjs-ecosystem/feathers-chat-react](https://github.com/feathersjs-ecosystem/feathers-chat-react)
-- React Native: [feathersjs-ecosystem/feathers-react-native-chat](https://github.com/feathersjs-ecosystem/feathers-react-native-chat)
-- Angular: [feathersjs-ecosystem/feathers-chat-angular](https://github.com/feathersjs-ecosystem/feathers-chat-angular)
-- VueJS with Vuex: [feathers-plus/feathers-chat-vuex](https://github.com/feathers-plus/feathers-chat-vuex)
-
-> __Important:__ This project requires NodeJS 10 or later.
-
-## Getting Started
-
-Getting up and running is as easy as 1, 2, 3.
-
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/feathers-chat
-    npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
+# bun
+bun install
 ```
 
-## Help
+## Development Server
 
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  transition: all 0.3s linear;
+  font-family: "SourceSansPro", sans-serif;
+}
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+@media (max-width: 768px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+#customers,
+#pricing {
+  scroll-margin-top: 100px;
+}
+img {
+  user-select: none;
+  pointer-events: none;
+}
+
+:where(
+    .css-dev-only-do-not-override-1ugq3w3
+  ).ant-select-single.ant-select-show-arrow
+  .ant-select-selection-item,
+:where(
+    .css-dev-only-do-not-override-1ugq3w3
+  ).ant-select-single.ant-select-show-arrow
+  .ant-select-selection-placeholder {
+  padding-inline-end: 40px !important;
+}
